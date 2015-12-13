@@ -1,0 +1,43 @@
+Public Class DBApi{
+	//all bs for connecting the db to main api
+
+	Public Static void main(String args[]){
+
+		getLocation(){
+		//gps cordinates using devices h/w
+		}
+
+		getUserId(){
+		//UserId from the authentication table
+		}
+
+		getUserImage(int UserId){
+		//User Profile Picture from the data store  
+		}
+
+		int getUserComplain(int UserId){
+		// Retrive all the user CompainTable
+		return complainId;
+		}
+
+		Img getComplainImage(int ComplainId){
+		// Retrive the complain image from the ComplainTable
+		return ComplainImg;
+
+		}
+
+		String getComplainComments()(int UserId){
+		// Retrive all the comments from the complainTable
+		return Comments [];
+		}
+
+		setNewComplain(){
+		
+		}
+
+		setNewComment(){
+		}
+
+	}
+
+}
